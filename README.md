@@ -125,9 +125,12 @@ Redirect all HTTP request to HTTPS
 
 ![p21](project-image/p21.jpg)
 
-We can view our newly created OAI and see details such as distribution domain name, amazon resource name (arn), and last modified.
-
+This is the newly created origin access identity (OAI) showing the status as enabled  
+  
 ![p22](project-image/p22.jpg)  
+
+We can see details such as distribution domain name, amazon resource name (arn), and last modified.
+  
 ![p25](./project-image/p25%20cloudfront%20details.jpg)
 
 Once the status of your distribution changes from “Deploying” to “Deployed/Enabled”, copy the endpoint URL for your CloudFront distribution found in the “Domain Name” (https://d16flnrfi11fch.cloudfront.net) column and access it via a web browser.
